@@ -24,12 +24,12 @@ const Hero = ( ) => {
         )
     })
     return (
-        <section id="hero" className='relative overflow-hidden'>
+        <section id="hero" className='relative overflow-hidden pb-20'>
             <div className='absolute top-0 left-0 z-10'>
                 <img src='/images/bg.png' alt='background'/>
             </div>
 
-            <div className='hero-layout'>
+            <div className='hero-layout pt-20'>
                 {/*LEFT: HERO CONTENT */}
                 <header className='flex flex-col justify-center md:w-full w-screen
                 md:px-20 px-5'>
@@ -57,9 +57,15 @@ const Hero = ( ) => {
                             <h1>into Real Projects</h1>
                             <h1>that Deliver Results</h1>
                         </div>
+                        
+                        <img
+                            src='/images/cutme.jpg'
+                            alt='Profile'
+                            className='w-50 h-50 rounded-full border-white-50 object-cover object-top'
+                        />
                         <p className='text-white-50 md:text-xl relative z-10
                         pointer-events-none'>
-                            Hi, I'm Sacré, a developer based in DRC with a passion for code.
+                            Hi, I'm Sacré, a software engineer based in DRC with a passion for code, AI and Cybersecurity.
                         </p>
                         <Button
                         className="md:w-80 md:h-16 w-60 h-12"

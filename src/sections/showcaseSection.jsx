@@ -40,6 +40,8 @@ const ShowcaseSection = () => {
     }, []);
 
     return (
+        
+      <>  
     <section id="work" ref={sectionRef} className='app-showcase'>
         <div className='w-full'>
         <div className='showcaselayout'>
@@ -50,7 +52,7 @@ const ShowcaseSection = () => {
             </div>
             <div className='text-content'>
                 <h2>On-Demand Rides Made Simple with a Powerful, User-Friendly 
-                    App called Ryde 
+                    App called SaCar 
                 </h2>
                 <p className='text-white-50 md:text-xl'>
                     An app built with React Native Expo & TailwindCSS 
@@ -70,15 +72,61 @@ const ShowcaseSection = () => {
 
                 <div className='project' ref={project3Ref}>
                     <div className='image-wrapper bg-[#ffe7eb]'>
-                        <img src='/images/project3.png' alt='YC Directory' />
+                        <img src='/images/pizza.png' alt='YC Directory' />
                     </div>
-                    <h2>YC Directory - A Startup Showcase App</h2>
+                    <h2>Food delivery Platform</h2>
                 </div>
             </div>
 
             </div>
            </div>
         </section>
+
+
+<section id="work" ref={sectionRef} className='app-showcase'>
+        <div className='w-full'>
+        <div className='showcaselayout'>
+        {/* LEFT */}
+        <div className='first-project-wrapper' ref={project1Ref}>
+            <div className='image-wrapper'>
+                <img src='/images/bull.png' alt='Ryde'/>
+            </div>
+            <div className='text-content'>
+                <h2>School app managing student records, payments, invoices and school reports generated with Oracle APEX.
+                </h2>
+                <p className='text-white-50 md:text-xl'>
+                    An app built with Oracle APEX.
+                </p>
+            </div>
+        </div>
+
+            {/* RIGHT */}
+            <div className='project-list-wrapper overflow-hidden'>
+                <div className='project' ref={project2Ref}>
+                    <div className='image-wrapper bg-[#ffefdb]'>
+                        <img src='/images/standing.jpg' alt='Point of Sales Management Platform' />
+                    </div>
+                    <h2>Point of Sales Management Platform</h2>
+                </div>
+
+                <div className='project' ref={project3Ref}>
+                    <div className='image-wrapper bg-[#ffe7eb]'>
+                        <img src='/images/mobile.jpg' alt='YC Directory' />
+                    </div>
+                    <h2>E-learning app powered by AI</h2>
+                    <p className='text-white-50 md:text-xl'>
+                    An app built with React Native Expo & TailwindCSS 
+                    and using Gemini models for courses generation.
+                </p>
+                </div>
+            </div>
+
+            </div>
+           </div>
+        </section>
+
+        </>
+        
     )
 }
 
