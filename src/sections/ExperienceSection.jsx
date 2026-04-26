@@ -66,7 +66,7 @@ const ExperienceSection = () => {
                                 <div className=' xl:w-2/6'>
                                 <GlowCard card ={card} index={index}>
                                     <div>
-                                        <img src={card.imgPath} alt={card.title}  className="w-16 h-18 object-cover rounded-[10px]" /> 
+                                        <img src={card.imgPath} alt={card.title} loading='lazy'  className="w-16 h-18 object-cover rounded-[10px]" /> 
                                     </div>
                                 </GlowCard>
                                 </div>
@@ -81,7 +81,7 @@ const ExperienceSection = () => {
                                <div className='expText flex xl:gap-20 md:gap-10 
                                relative z-20'>
                                 <div className='timeline-logo'>
-                                    <img src= {card.logoPath} alt='logo'  className="w-16 h-16 object-cover rounded-[50px]"  />
+                                    <img src= {card.logoPath} alt='logo' loading='lazy'  className="w-16 h-16 object-cover rounded-[50px]"  />
                                 </div>
                                 <div>
                                 <h1 className='font-semibold text-3xl'>{card.title}</h1>  

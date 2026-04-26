@@ -4,7 +4,7 @@ import { logoIconsList } from '../constants/index.js'
 const LogoIcon = ({ icon }) => {
     return (
         <div className='flex-none flex-center marquee-item'>
-            <img src={icon.imgPath}  alt={icon.name}/>
+            <img src={icon.imgPath}  alt={icon.name} loading='lazy'/>
         </div>
     )
 }
@@ -18,7 +18,7 @@ const LogoSection = () => {
             <div className='marquee h-52'>
                 <div className='marquee-box md:gap-12 gap-5'>
                     {logoIconsList.map((icon) => (
-                        <LogoIcon key={icon.name} icon={icon} />
+                        <LogoIcon key={icon.name} icon={icon} loading='lazy' />
                     ))}
                 </div>
             </div>

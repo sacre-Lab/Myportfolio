@@ -48,7 +48,7 @@ const ShowcaseSection = () => {
         {/* LEFT */}
         <div className='first-project-wrapper' ref={project1Ref}>
             <div className='image-wrapper'>
-                <img src='/images/project1.png' alt='Ryde'/>
+                <img src='/images/project1.png' alt='Ryde' loading='lazy'/>
             </div>
             <div className='text-content'>
                 <h2>On-Demand Rides Made Simple with a Powerful, User-Friendly 
@@ -65,14 +65,14 @@ const ShowcaseSection = () => {
             <div className='project-list-wrapper overflow-hidden'>
                 <div className='project' ref={project2Ref}>
                     <div className='image-wrapper bg-[#ffefdb]'>
-                        <img src='/images/project2.png' alt='Library Management Platform' />
+                        <img src='/images/project2.png' alt='Library Management Platform' loading='lazy' />
                     </div>
                     <h2>Library Management Platform</h2>
                 </div>
 
                 <div className='project' ref={project3Ref}>
                     <div className='image-wrapper bg-[#ffe7eb]'>
-                        <img src='/images/pizza.png' alt='YC Directory' />
+                        <img src='/images/pizza.png' alt='YC Directory' loading='lazy' />
                     </div>
                     <h2>Food delivery Platform</h2>
                 </div>
@@ -89,7 +89,7 @@ const ShowcaseSection = () => {
         {/* LEFT */}
         <div className='first-project-wrapper' ref={project1Ref}>
             <div className='image-wrapper'>
-                <img src='/images/bull.png' alt='Ryde'/>
+                <img src='/images/bull.png' alt='Ryde' loading='lazy' />
             </div>
             <div className='text-content'>
                 <h2>School app managing student records, payments, invoices and school reports generated with Oracle APEX.
@@ -104,14 +104,14 @@ const ShowcaseSection = () => {
             <div className='project-list-wrapper overflow-hidden'>
                 <div className='project' ref={project2Ref}>
                     <div className='image-wrapper bg-[#ffefdb]'>
-                        <img src='/images/standing.jpg' alt='Point of Sales Management Platform' />
+                        <img src='/images/standing.jpg' alt='Point of Sales Management Platform' loading='lazy' />
                     </div>
                     <h2>Point of Sales Management Platform</h2>
                 </div>
 
                 <div className='project' ref={project3Ref}>
                     <div className='image-wrapper bg-[#ffe7eb]'>
-                        <img src='/images/mobile.jpg' alt='YC Directory' />
+                        <img src='/images/mobile.jpg' alt='YC Directory' loading='lazy' />
                     </div>
                     <h2>E-learning app powered by AI</h2>
                     <p className='text-white-50 md:text-xl'>

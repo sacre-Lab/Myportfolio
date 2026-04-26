@@ -16,7 +16,7 @@ const NavBar = () => {
     }, []);
 
     return (
-        <header className={`navbar ${scrolled ? 'scrolled' : 'not-scrolled'} relative`}>
+        <header className={`navbar ${scrolled ? 'scrolled' : 'not-scrolled'}`}>
             
             <div className='inner flex justify-between items-center'>
                 
